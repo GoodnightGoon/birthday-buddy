@@ -29,8 +29,8 @@ window.addEventListener('load', function() {
           document.querySelector('h2').innerHTML = 'Your Birthday Buddy is...';
           document.querySelector('h3').innerHTML = villager.name;
           document.querySelector('h4').innerHTML = `${villager.birthday_month}, ${villager.birthday_day}`;
-          document.querySelector('.quote').innerHTML = `Quote: ${villager.quote}`;
-          document.querySelector('.phrase').innerHTML = `Phrase: ${villager.phrase}`;
+          document.querySelector('.quote').innerHTML = `Quote: "${villager.quote}"`;
+          document.querySelector('.phrase').innerHTML = `Phrase: "${villager.phrase}"`;
           document.querySelector('.species').innerHTML = `Species: ${villager.species}`;
           document.querySelector('.persona').innerHTML = `Personality: ${villager.personality}`;
           document.querySelector('.img').src = villager.image_url;
