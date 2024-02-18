@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description goes here">
+    <meta name="keywords" content="one, two, three">
+    <title>Blank Template</title>
+
+    <script src=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Find your Animal Crossing Birthday Buddy!</h1>
+</header>
+
+<main>
+    <input type="text" id="userMonth" placeholder="January">
+    <input type="text" id="userDay" placeholder="01">
+    <br>
+    <button type="button" id="checkButton">Check It!</button><br>
+</main>
+
+<div id="resultContainer" class="hidden">
+    <div>
+        <h2></h2>
+        <img src='' class="img">
+    </div>
+    <div id="stats">
+        <h3></h3>
+        <p></p>
+        <h4></h4>
+        <p class="quote"></p>
+        <p class="phrase"></p>
+        <p class="species"></p>
+        <p class="persona"></p>
+        <div>
+            <button type="button" id="refreshButton" class="hidden">Refresh</button>
+        </div>
+    </div>
+</div>
+
+<footer><h5>Created using Nookipedia API</h5></footer>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
